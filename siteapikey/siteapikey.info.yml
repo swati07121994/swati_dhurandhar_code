@@ -1,0 +1,5 @@
+name: Site API Key
+description: Making a feild 'Site API Key' in Site Information Config.
+type: module
+package: custom
+core: 8.x

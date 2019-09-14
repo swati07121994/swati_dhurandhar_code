@@ -1,0 +1,10 @@
+<?php
+
+/**
+ *Implementing the Hook to change the text in Site Information Form
+ */
+ function siteapikey_form_alter(&$form, &$form_state, $form_id){
+     if ($form_id == 'system_site_information_settings'){
+         $form['actions']['submit']['#value'] = t('Update Configuration');
+     }
+ }
